@@ -8,6 +8,7 @@
       homebrew_cask: name={{item}} state=present
       with_items:
         - atom
+        - camtasia
         - dropbox
         - google-chrome
         - microsoft-office
