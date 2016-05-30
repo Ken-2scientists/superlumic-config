@@ -15,7 +15,6 @@
 
   roles:
     - profile-all
-    - profile-developer
 
   vars:
     - computername: PortCity
