@@ -1,0 +1,32 @@
+---
+
+- hosts: 127.0.0.1
+  connection: local
+
+  tasks:
+    - name: install personal cask applications
+      homebrew_cask: name={{item}} state=present
+      with_items:
+        - atom
+        - dropbox
+        - google-chrome
+        - microsoft-office
+        - vmware-fusion
+
+  roles:
+    - profile-all
+    - profile-developer
+
+  vars:
+    - computername: PortCity
+    - git_user_name: Kenneth L. Smith
+    - git_user_email: ken.smith@2scientists.net
+    - osx_defaults:
+      - domain: 'com.apple.dock'
+        key: 'show-process-indicators'
+        type: boolean
+        value: true
+      - domain: 'com.apple.menuextra.battery'
+        key: 'ShowPercent'
+        type: string
+        value: 'YES'
