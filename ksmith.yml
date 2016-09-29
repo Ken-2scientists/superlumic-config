@@ -9,11 +9,13 @@
       with_items:
         - atom
         - camtasia
+        - docker
         - dropbox
         - github-desktop
         - google-chrome
+        - google-drive
         - microsoft-office
-        - music-manager
+        - skype
         - vmware-fusion
 
   roles:
