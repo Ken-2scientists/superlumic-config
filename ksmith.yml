@@ -23,7 +23,6 @@
       homebrew: name={{item}} state=present
       with_items:
         - leiningen
-    - name: install/upgrade atom packages
 
   roles:
     - profile-all
