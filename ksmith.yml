@@ -24,14 +24,10 @@
       with_items:
         - leiningen
     - name: install/upgrade atom packages
-      atom_upgrade_all: True
-      atom_packages:
-        - language-docker
-        - proto-repl
-        - proto-repl-charts
 
   roles:
     - profile-all
+    - jgkim.atom
 
   vars:
     - computername: PortCity
@@ -46,3 +42,8 @@
         key: 'ShowPercent'
         type: string
         value: 'YES'
+    - atom_upgrade_all: True
+    - atom_packages:
+      - language-docker
+      - proto-repl
+      - proto-repl-charts
