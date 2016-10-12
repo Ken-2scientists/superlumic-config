@@ -46,3 +46,4 @@
       - language-docker
       - proto-repl
       - proto-repl-charts
+      - tool-bar
