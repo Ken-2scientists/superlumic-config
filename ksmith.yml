@@ -14,10 +14,15 @@
         - github-desktop
         - google-chrome
         - google-drive
+        - java
         - microsoft-office
         - sonos
         - skype
         - vmware-fusion
+    - name: install personal homebrew apps
+      homebrew: name={{item}} state=present
+      with_items:
+        - leiningen
 
   roles:
     - profile-all
