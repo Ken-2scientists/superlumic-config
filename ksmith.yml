@@ -16,6 +16,7 @@
         - google-drive
         - java
         - microsoft-office
+        - slack
         - sonos
         - skype
         - vmware-fusion
@@ -23,6 +24,7 @@
       homebrew: name={{item}} state=present
       with_items:
         - leiningen
+        - vault
 
   roles:
     - profile-all
