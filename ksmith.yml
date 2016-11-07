@@ -45,7 +45,10 @@
         value: 'YES'
     - atom_upgrade_all: True
     - atom_packages:
+      - git-plus
+      - ink
       - language-docker
       - proto-repl
       - proto-repl-charts
+      - swackets
       - tool-bar
