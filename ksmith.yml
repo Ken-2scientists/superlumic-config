@@ -13,7 +13,7 @@
     - git_user_email: ken.smith@2scientists.net
     - osx_defaults:
       - domain: 'com.apple.dock'
-        key: 'show-process-indicators'
+        key: 'static-only'
         type: boolean
         value: true
       - domain: 'com.apple.menuextra.battery'
