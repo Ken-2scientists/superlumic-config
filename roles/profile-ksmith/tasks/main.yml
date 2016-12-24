@@ -1,0 +1,23 @@
+  - name: install personal cask applications
+    homebrew_cask: name={{item}} state=present
+    with_items:
+      - atom
+      - camtasia
+      - docker
+      - dropbox
+      - github-desktop
+      - google-chrome
+      - google-drive
+      - java
+      - microsoft-office
+      - postman
+      - slack
+      - sonos
+      - skype
+      - vmware-fusion
+      - zotero
+  - name: install personal homebrew apps
+    homebrew: name={{item}} state=present
+    with_items:
+      - leiningen
+      - vault
