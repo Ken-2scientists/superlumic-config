@@ -34,7 +34,7 @@
     - jgkim.atom
 
   vars:
-    - computername: PortCity
+    - computername: Upslope
     - git_user_name: Kenneth L. Smith
     - git_user_email: ken.smith@2scientists.net
     - osx_defaults:
