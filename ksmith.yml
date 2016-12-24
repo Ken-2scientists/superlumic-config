@@ -5,7 +5,6 @@
 
   roles:
     - profile-ksmith
-    - profile-all
     - jgkim.atom
 
   vars:
