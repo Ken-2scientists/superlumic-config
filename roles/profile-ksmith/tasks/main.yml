@@ -23,3 +23,9 @@
   with_items:
     - leiningen
     - vault
+
+- name: Debugging the dock_apps var
+  debug: msg="The dock_apps are {{ dock_apps }}"
+
+- name: Debugging installed_apps var
+  debug: msg="But install_apps are {{installed_apps.stdout_lines}}"
