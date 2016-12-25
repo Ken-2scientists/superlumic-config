@@ -3,6 +3,7 @@
 computername: Upslope
 git_user_name: Kenneth L. Smith
 git_user_email: ken.smith@2scientists.net
+# See a lot of the OSX sample config at https://github.com/geerlingguy/dotfiles/blob/master/.osx
 osx_defaults:
   - domain: 'NSGlobalDomain'
     key: 'com.apple.swipescrolldirection'
@@ -53,3 +54,15 @@ atom_packages:
   - proto-repl-charts
   - swackets
   - tool-bar
+dock_apps:
+  - App Store.app
+  - System Preferences.app
+  - Terminal.app
+  - VMWare Fusion.app
+  - Google Chrome.app
+  - GitHub Desktop.app
+  - Atom.app
+  - Slack.app
+  - Microsoft Word.app
+  - Microsoft Excel.app
+  - Microsoft PowerPoint.app
