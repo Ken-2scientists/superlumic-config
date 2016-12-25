@@ -57,7 +57,7 @@ atom_packages:
 dock_apps:
   - App Store.app
   - System Preferences.app
-  - Terminal.app
+  - Utilities/Terminal.app
   - VMWare Fusion.app
   - Google Chrome.app
   - GitHub Desktop.app
