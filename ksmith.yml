@@ -7,3 +7,10 @@
     - profile-ksmith
     - jgkim.atom
     - danbohea.dock-items
+
+  tasks:
+    - debug:
+      msg: "The dock_apps are {{ dock_apps }}"
+
+    - debug:
+      msg: "But install_apps are {{installed_apps.stdout_lines}}"
