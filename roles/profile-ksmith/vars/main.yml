@@ -1,0 +1,23 @@
+---
+
+computername: Upslope
+git_user_name: Kenneth L. Smith
+git_user_email: ken.smith@2scientists.net
+osx_defaults:
+  - domain: 'com.apple.dock'
+    key: 'static-only'
+    type: boolean
+    value: true
+  - domain: 'com.apple.menuextra.battery'
+    key: 'ShowPercent'
+    type: string
+    value: 'YES'
+atom_upgrade_all: True
+atom_packages:
+  - git-plus
+  - ink
+  - language-docker
+  - proto-repl
+  - proto-repl-charts
+  - swackets
+  - tool-bar
