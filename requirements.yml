@@ -11,4 +11,5 @@
 
 - src: jgkim.atom
 
-- src: danbohea.dock-items
+- src: https://github.com/Ken-2scientists/ansible-role-dock-items.git
+  name: danbohea.dock-items

@@ -37,6 +37,10 @@ osx_defaults:
     key: 'wvous-bl-corner'
     type: int
     value: 5
+  - domain: 'com.apple.dock'
+    key: tilesize
+    type: int
+    value: 45
   - domain: 'com.apple.driver.AppleBluetoothMultitouch.trackpad'
     key: 'Clicking' # True to enable tap to click
     type: boolean
