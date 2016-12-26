@@ -39,7 +39,7 @@ osx_defaults:
     value: 5
   - domain: 'com.apple.dock'
     key: tilesize
-    type: int
+    type: float
     value: 45
   - domain: 'com.apple.driver.AppleBluetoothMultitouch.trackpad'
     key: 'Clicking' # True to enable tap to click
