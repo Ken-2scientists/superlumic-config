@@ -9,6 +9,22 @@ osx_defaults:
     key: 'com.apple.swipescrolldirection'
     type: boolean
     value: false
+  - domain NSGlobalDomain
+    key AppleShowAllExtensions
+    type: bool
+    value: true
+  - domain: com.apple.Terminal
+    key: "Default Window Settings"
+    type: string
+    value: Pro
+  - domain: com.apple.Terminal
+    key: "Startup Window Settings"
+    type: string
+    value: Pro
+  - domain: com.apple.Terminal
+    key: "Shell"
+    type: string
+    value: /bin/zsh
   - domain: 'com.apple.screensaver'
     key: 'askForPassword'
     type: int
