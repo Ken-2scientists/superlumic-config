@@ -23,6 +23,7 @@
   with_items:
     - leiningen
     - vault
+    - rlwrap
 
 - name: Debugging the dock_apps var
   debug: msg="The dock_apps are {{ dock_apps }}"
